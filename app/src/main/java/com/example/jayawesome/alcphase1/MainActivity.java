@@ -10,17 +10,10 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    public WebView webView;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        webView= findViewById(R.id.Aboutalc);
-        webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://www.andela.com/alc/");
 
         Button butt1=(Button)findViewById(R.id.button);
         Button butt2=(Button)findViewById(R.id.button2);

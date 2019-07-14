@@ -8,11 +8,20 @@ import android.widget.ProgressBar;
 
 public class Aboutalc extends AppCompatActivity {
 
+    WebView AboutAlc;
+    String URL;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutalc);
+
+        URL = "https://andela.com/alc/";
+        AboutAlc = (WebView) findViewById(R.id.AboutAlc);
+
+        AboutAlc.loadUrl(URL);
+        AboutAlc.setWebViewClient(new WebViewClient());
 
     }
 }
