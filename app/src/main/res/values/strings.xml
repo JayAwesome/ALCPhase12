@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ALC Phase 1</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="olotu_babatunde_solomon">Olotu Babatunde Solomon</string>
+    <string name="Track">Android</string>
+    <string name="Country">Nigeria</string>
+    <string name="Email">Email: jayawesomest@gmail.com</string>
+    <string name="PhoneNumber">Phone Number: 2348039490248</string>
+    <string name="SlackUsername">Slack Username: @Babatunde Solomon Olotu</string>
+    <string name="ALCPhase1">Welcome to ALC 4.0</string>
+    <string name="butt1">ABOUT ALC</string>
+    <string name="butt2">MY PROFILE</string>
+</resources>
